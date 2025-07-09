@@ -1,0 +1,16 @@
+{
+    "name": "zador/hexlet-php",
+    "description": "train",
+    "autoload": {
+        "psr-4": {
+            "Zador\\HexletPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Zadorin Danil",
+            "email": "zadorin7zadorin@yandex.ru"
+        }
+    ],
+    "require": {}
+}
