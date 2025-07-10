@@ -4,7 +4,10 @@
     "autoload": {
         "psr-4": {
             "Zador\\HexletPhp\\": "src/"
-        }
+        },
+	"files": [
+		"src/Runner.php"
+	]
     },
     "authors": [
         {
@@ -12,5 +15,13 @@
             "email": "zadorin7zadorin@yandex.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "illuminate/collections": "^12.20"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.13"
+    },
+    "scripts": {
+        "phpcs": "phpcs"
+    }
 }
